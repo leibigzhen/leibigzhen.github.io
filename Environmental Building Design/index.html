@@ -1,0 +1,1575 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://leibigzhen.github.io/Environmental%20Building%20Design/">
+      
+      
+        <link rel="prev" href="../Seminar%20on%20Architecture/">
+      
+      
+        <link rel="next" href="../tutorials/python/01_Python%20Syntax/">
+      
+      
+      <link rel="icon" href="../assets/logo.jpg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>Environmental Building - Jackson LEI</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#w1-what-is-an-environmental-building" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Jackson LEI" class="md-header__button md-logo" aria-label="Jackson LEI" data-md-component="logo">
+      
+  <img src="../assets/logo.jpg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Jackson LEI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Environmental Building
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2c-1.05 0-2.05.16-3 .46 4.06 1.27 7 5.04 7 9.54s-2.94 8.27-7 9.54c.95.3 1.95.46 3 .46a10 10 0 0 0 10-10A10 10 0 0 0 9 2"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="http://127.0.0.1:8000/" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://leibigzhen.github.io/" class="md-tabs__link">
+        
+  
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://leibigzhen.github.io/" class="md-tabs__link">
+        
+  
+    
+  
+  Projects
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Seminar%20on%20Architecture/" class="md-tabs__link">
+          
+  
+  Publications
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../tutorials/python/01_Python%20Syntax/" class="md-tabs__link">
+          
+  
+  Tutorials
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Iris%20%26%20Boston_notes/" class="md-tabs__link">
+          
+  
+  More
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Jackson LEI" class="md-nav__button md-logo" aria-label="Jackson LEI" data-md-component="logo">
+      
+  <img src="../assets/logo.jpg" alt="logo">
+
+    </a>
+    Jackson LEI
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://127.0.0.1:8000/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://leibigzhen.github.io/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://leibigzhen.github.io/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Publications
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Publications
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Seminar%20on%20Architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Architecture History
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Environmental Building
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Environmental Building
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-design-energy-code-ashrae-standard-901" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Design Energy Code: ASHRAE Standard 90.1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Design Energy Code: ASHRAE Standard 90.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-building-energy-rating-energy-star" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Building Energy Rating: Energy Star
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Building Energy Rating: Energy Star">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-environmental-usgbc-leed" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Environmental: USGBC LEED
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Environmental: USGBC LEED">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-design-passive-house" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Design: Passive House
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Design: Passive House">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-climate-architecture-2030" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Climate: Architecture 2030
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Climate: Architecture 2030">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-ecology-living-building-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Ecology: Living Building Challenge
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Ecology: Living Building Challenge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-well-building-standard" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. WELL Building Standard
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorials
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorials/python/01_Python%20Syntax/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1 Basic Syntax
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorials/python/02_Data%20Analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2 Data Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    More
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            More
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Iris%20%26%20Boston_notes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python Notes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-design-energy-code-ashrae-standard-901" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Design Energy Code: ASHRAE Standard 90.1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Design Energy Code: ASHRAE Standard 90.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-building-energy-rating-energy-star" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Building Energy Rating: Energy Star
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Building Energy Rating: Energy Star">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-environmental-usgbc-leed" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Environmental: USGBC LEED
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Environmental: USGBC LEED">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-design-passive-house" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Design: Passive House
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Design: Passive House">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-climate-architecture-2030" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Climate: Architecture 2030
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Climate: Architecture 2030">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-ecology-living-building-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Ecology: Living Building Challenge
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Ecology: Living Building Challenge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#history_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-problem_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Problem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does It Work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-well-building-standard" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. WELL Building Standard
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="w1-what-is-an-environmental-building"><strong>W1: What is an “environmental” building</strong></h1>
+<h2 id="1-design-energy-code-ashrae-standard-901">1. Design Energy Code: ASHRAE Standard 90.1</h2>
+<h3 id="history">History</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\Screen Shot 2021-08-31 at 10.24.47 AM.png" alt="Screen Shot 2021-08-31 at 10.24.47 AM" style="zoom: 33%;" /></p>
+<ul>
+<li>Originally published in 1975, under the name <em>Energy Conservation in New Building Design</em>, as the first national energy code.</li>
+<li>Developed after the 1973 oil crisis, which brought about significant petroleum shortages and raised prices.</li>
+<li>In 1989: the ASHRAE 90 was separated into two standards, <u>one for commercial buildings and the other for low-rise residential buildings.</u></li>
+<li>Before this standard, there was less awareness about energy consumption in buildings, and this set a new way of thinking.</li>
+<li>Later editions up to the 90.1-2016 have been shown to have reduced the energy used by a typical building that conforms to the standard by about 50%, based on research led by the Pacific Northwest National Laboratory (see image on right).</li>
+<li>The standard provides minimum requirements for energy-efficient design of most buildings and has been the benchmark for commercial building energy codes in the US and a basis for codes around the world for more than 35 years.</li>
+</ul>
+<h3 id="what-problem">What Problem</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\90_1_2019_IP_cover--002-.jpeg.jpg" alt="90_1_2019_IP_cover--002-.jpeg" style="zoom:25%;" /></p>
+<ul>
+<li><strong>Energy Consumption</strong> ASHRAE deals with the issue of excess energy consumption in a building, and acts as the minimum law required energy performance metric before a building can be allowed to be built in the US.</li>
+<li><strong>Energy Cost</strong> Reducing Energy consumption, beyond being a code requirement, is a way of reducing energy cost for owners, which therefore becomes another interest of the standard.</li>
+<li><strong>CO2 Emissions</strong> Finally, the driving force behind the implementation of ASHRAE as code is to conserve the environment, measured by magnitude of the carbon footprint of buildings.</li>
+<li><strong>Comprehensive Design</strong> ASHRAE is invested in encouraging comprehensive, multi-scaled design practice between different design professionals that maximizes efficiencies and capitalizes on opportunities</li>
+</ul>
+<h3 id="how-does-it-work">How Does It Work</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\Snipaste_2021-09-04_16-31-16.jpg" alt="Snipaste_2021-09-04_16-31-16" style="zoom: 33%;" /></p>
+<ul>
+<li><strong>Enforcement</strong> This is enforced by states or other local government jurisdictions. Those local governments decide which version of ASHRAE's standards a building must meet to be compliant. And the burden falls on developers, designers, and contractors. Pass/Fail Outcome.</li>
+<li><strong>Beyond-Code</strong> This is really just the baseline, and many more progressive jurisdictions use this just as the floor to build higher-standard requirements or incentives.</li>
+<li>If you fail, you can prove that your building meets performance standards in lieu of the other standards.</li>
+</ul>
+<h2 id="2-building-energy-rating-energy-star">2. Building Energy Rating: Energy Star</h2>
+<h3 id="history_1">History</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\Snipaste_2021-09-04_16-51-18.jpg" alt="Snipaste_2021-09-04_16-51-18" style="zoom:50%;" /></p>
+<ul>
+<li>
+<p>EPA (Environmental Protection Agency) and DoE (Department of Energy) started the program in 1992 under the Clean Air Act</p>
+</li>
+<li>
+<p>The program is increasingly consumer oriented over the year</p>
+</li>
+</ul>
+<h3 id="what-problem_1">What Problem</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\Snipaste_2021-09-04_16-51-57.jpg" alt="Snipaste_2021-09-04_16-51-57" style="zoom: 33%;" /></p>
+<ul>
+<li>Help businesses identify economical means and method to reduce energy consumption</li>
+<li><u>Operational cost contained to the scale and scope of building</u></li>
+<li>Measure resources and waste, include greenhouse gas emission, water use, and waste material</li>
+</ul>
+<h3 id="how-does-it-work_1">How Does It Work</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\22image.png" alt="22image" style="zoom: 33%;" /></p>
+<ul>
+<li>Produce Scale Metrics</li>
+<li>Certified products (75 in total) including light bulbs, personal computers, etc. to provide a comparable metrics to the consumers</li>
+<li>Commercial building scale metrics </li>
+<li>Recycled, composted, donated/reused, disposed</li>
+<li>Statistical performance models based on building size, occupancy, location, number of PCs, etc. with results ranked.</li>
+<li>enclosure </li>
+<li>Heating and cooling</li>
+<li>Water management system (internal/external use)</li>
+</ul>
+<h2 id="3-environmental-usgbc-leed">3. Environmental: USGBC LEED</h2>
+<h3 id="history_2">History</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\Snipaste_2021-09-04_18-54-55.jpg" alt="Snipaste_2021-09-04_18-54-55" style="zoom: 50%;" /></p>
+<h3 id="what-problem_2">What Problem</h3>
+<ul>
+<li>Offers a solution or target for defining what a green building is. Helps with advertising and perceptions for renters, prospective buyers, added real estate cost, etc.</li>
+<li>Green Building Certification - Largely voluntary however it is mandated by some locations, governments, and clients. Can act as a reward system through tax credits or other real estate benefits (such as subsidies or rewards)</li>
+<li><u>Certification levels: Certified, Silver, Gold , Platinum . Based on points levels achieved from a checklist</u></li>
+<li>There are multiple paths to achieve certification and the system allows some flexibility above achieving all of the ‘prerequisites’ or minimum mandatory requirements.</li>
+<li>Diversified collection of rating systems for development of many scales and project types. New Construction, Operations and Maintenance, Core and Shell, Schools, Interiors, and a growing collection of project types - neighborhoods. Note O&amp;M is for existing buildings so works for renovations</li>
+<li>Dovetails with other systems in the USGBC environment, like WELL certification</li>
+</ul>
+<p><strong>Benefits</strong></p>
+<ul>
+<li>System has developed to increase difficulty over time, so that LEED v4.1 is now more stringent than its predecessors.</li>
+<li>Includes a system of pilot credits and innovation credits for incorporating new ideas, concepts, and solutions outside of the “checklist”</li>
+<li>Has improved environmentally literacy of the building industry to introduce concepts like VOCs, EPD, HPDs. For example, this solves stagnation or plateaus in building performance and perceptions of what a sustainable building can be.</li>
+</ul>
+<h3 id="how-does-it-work_2">How Does It Work</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\RTPwVVQhbTk0H5pU3j1zaZzDXXYZ1EoRbro_AzGtQzmeZWIwXOmHuKcLJXm_tcFaLV-KGrGeaU6JV4-ZqQU5nYdsOptavXelOTGkanukzfFCp5rZagtRWHi-JXyFUMk3Gs0kkZT5=s0.png" alt="RTPwVVQhbTk0H5pU3j1zaZzDXXYZ1EoRbro_AzGtQzmeZWIwXOmHuKcLJXm_tcFaLV-KGrGeaU6JV4-ZqQU5nYdsOptavXelOTGkanukzfFCp5rZagtRWHi-JXyFUMk3Gs0kkZT5=s0" style="zoom: 50%;" /></p>
+<p>LEED for new buildings: voluntary - can be mandated. It is a point scoring system for certification of a project.</p>
+<ul>
+<li><strong>Preparation for LEED certification</strong> Meeting minimum requirements, involvement of all team members and achieving effectiveness in cost and environmental performance. In particular, evaluation is made in the following five green design categories:</li>
+<li>Sustainable sites</li>
+<li>Water efficiency</li>
+<li>Energy and atmosphere</li>
+<li>Materials and resources</li>
+<li>
+<p>Indoor environmental quality.</p>
+</li>
+<li>
+<p><strong>Process of LEED certification</strong></p>
+</li>
+<li>Step 1: Registration of the project </li>
+<li>Step 2: Submitting all the required documentation </li>
+<li>Step 3: Submission for certification </li>
+<li>Step 4: Preliminary ( technical advice) and final reviews( projects final score and certification) </li>
+<li>
+<p>Step 5: Performance feedback : Implementation of performance measurement and creating performance feedback mechanisms.</p>
+</li>
+<li>
+<p><strong>4 levels of certification; Certified, silver, gold , platinum</strong></p>
+</li>
+</ul>
+<h2 id="4-design-passive-house">4. Design: Passive House</h2>
+<h3 id="history_3">History</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\12234 (1).png" alt="12234 (1)" style="zoom: 50%;" /></p>
+<p>The movement of passive buildings is a response to the oil embargo of 1973 when oil prices tripled resulting to an energy crisis. This resulted in a group engineers from the University of Illinois into designing the Lo-Cal house three years later. The goal is to reduce energy losses and overloads.</p>
+<p>By the 1980s a full passive house movements was launched in North America. Germans refined the concept and took over as leaders of the movement.</p>
+<p>Katrin Klingenberg designed the very first building back in 2003 in the USA. This was the first time that a building met passive building energy standards. Her intention is to promote affordable single family housing units. She is the co-founder of the Passive House institute in the US. By 2016, 240 people passive buildings have had come to light.</p>
+<p>Source: https://www.eesi.org/</p>
+<h3 id="what-problem_3">What Problem</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\Snipaste_2021-09-04_21-29-06.jpg" alt="Snipaste_2021-09-04_21-29-06" style="zoom: 50%;" /></p>
+<h3 id="how-does-it-work_3">How Does It Work</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\12234 (2).png" alt="12234 (2)" style="zoom: 33%;" /></p>
+<p>Passive House in cool temperate climates like those across much of North America and Europe, the Standard is international, remaining both applicable and economically feasible in almost all inhabited climates of the globe.</p>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\Snipaste_2021-09-04_21-35-14.jpg" alt="Snipaste_2021-09-04_21-35-14" style="zoom: 50%;" /></p>
+<p><strong>key elements: windows/insulation/ventilation</strong>
+Installing windows in the insulation layer minimizes thermal bridges; extending insulation over part of the frame reduces heat losses. Installation cross sections in solid and timber frame walls.</p>
+<h2 id="5-climate-architecture-2030">5. Climate: Architecture 2030</h2>
+<h3 id="history_4">History</h3>
+<ul>
+<li>
+<p>2002: Established as a non-profit research and advocacy group</p>
+</li>
+<li>
+<ul>
+<li>Mission: transform the built environment from being a major contributor of greenhouse gas emissions to a central solution to climate and energy crises</li>
+</ul>
+</li>
+<li>
+<p>January 2006: Developed and issued the 2030 Challenge</p>
+</li>
+<li>
+<ul>
+<li>Challenge inspired "the zero emissions movement in the global building sector and has since been adopted by architectural  design firms, states, cities, counties, the American Institute of  Architects (AIA), International Union of Architects, US Conference of Mayors, and the China Accord"</li>
+</ul>
+</li>
+<li>
+<p>July 2021: CEO and founder Edward Mazria and COO Vincent Martinez deem that 2030 is too late, instead urging that all new buildings and major renovations be designed as carbon neutral</p>
+</li>
+</ul>
+<h3 id="what-problem_4">What Problem</h3>
+<p><img alt="Snipaste_2021-09-04_21-43-29" src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\Snipaste_2021-09-04_21-43-29.jpg" /></p>
+<p>Carbon impacts increasingly threaten our well-being. Buildings are the major source of demand for energy and materials that produce by-product greenhouse gases (GHG). </p>
+<p><u>The urban built environment is responsible for 75% of annual global GHG emissions: buildings alone account for 39%. The 2030 Challenges focus on energy and greenhouse gas emission reductions in the built environment – for individual buildings, districts and cities, and building products.</u></p>
+<p><strong>The 2030 Challenge for Planning</strong> – This Challenge is the goal set for the 2030 Districts Network, a membership of 23 private-sector-led, high performance urban building districts across North America. 2030 Districts are led by the private sector, with local building industry leaders, community groups and government to achieve significant energy, water, and emissions reductions.</p>
+<p><strong>The 2030 Challenge for Embodied Carbon</strong> – This Challenge, originally the 2030 Challenge for Products, spawned the Carbon Leadership Community (previously the Embodied Carbon Network), which now has over 5,400 members from 2650 companies and organizations worldwide, spanning the construction industry from both the private sector and public sector. Architecture 2030 and the Network collaborated to create the Carbon Smart Materials Palette – an attribute-based approach to embodied carbon emissions reductions for major building elements that will guide building design and construction, and government procurement policies.</p>
+<h3 id="how-does-it-work_4">How Does It Work</h3>
+<p><img src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\Snipaste_2021-09-04_21-53-51.jpg" alt="Snipaste_2021-09-04_21-53-51" style="zoom:50%;" /></p>
+<p><strong>Policy</strong> Architecture 2030 partners with policymakers from local governments and stakeholders across the U.S. and international markets to analyze and accelerate the adoption of these critical ZNC policies. </p>
+<p><strong>Education</strong> Architecture 2030 is committed to empowering educators to shape the next generation of architect by providing educational content, tools, resources, competitions, and programs.</p>
+<p><strong>Collaboration</strong> Architecture 2030 has partnered with industry organizations, member-based NGO’s, academic institutions, city networks, and private sector leaders to advance the decarbonization of the built environment at scale.</p>
+<h2 id="6-ecology-living-building-challenge">6. Ecology: Living Building Challenge</h2>
+<h3 id="history_5">History</h3>
+<ul>
+<li>Idea emerged in mid-1990s during an effort to produce the most advanced sustainable design project in the world: the EpiCenter in Bozeman, Montana.</li>
+<li>Sponsored the creation of the Packard Matrix in 2000, a system to assess economic and environmental impacts of various building certification programs; ultimately deemed Living Building the most effective choice.</li>
+<li>In 2011 the organization became the International Living Future Institute (ILFI), and adopted "a mission to lead the transformation to a world that is socially just, culturally rich and ecologically restorative."</li>
+<li>As of 2019, 105 projects have been certified and well over 500 have registered, representing over a dozen building types in nearly every climate zone on the planet.</li>
+<li>The Challenge has begun to move from proving that Living Buildings are possible to scaling the program to new levels, and to new types and sizes of projects.</li>
+</ul>
+<h3 id="what-problem_5">What Problem</h3>
+<p>Over the last thirty years, green building has grown to become the most important and progressive trend in the building industry. There have been huge steps forward in the design, construction and operation of buildings, and yet when compared with the rate of change required to avoid the worst effects of climate change and other global environmental challenges, our progress can no longer be incremental and barely recordable.</p>
+<h3 id="how-does-it-work_5">How Does It Work</h3>
+<p><img alt="Snipaste_2021-09-04_22-05-38" src="E:\CoursesⅢ\ARCH-751_Ecology, Technology and Design\Week 1_Environmental Building Design\pic\Snipaste_2021-09-04_22-05-38.jpg" /></p>
+<p><strong>Two Principles</strong></p>
+<ol>
+<li>Living Building Challenge compliance is based on actual, rather than modeled or anticipated, performance. Projects must be operational for at least twelve consecutive months prior to audit to verify Imperative compliance.</li>
+<li>All Living Building Challenge projects must be holistic—addressing aspects of all seven Petals through the Core Imperatives.</li>
+</ol>
+<h2 id="7-well-building-standard">7. WELL Building Standard</h2>
+<p>The WELL Building Standard is a vehicle for buildings and organizations to deliver more thoughtful and intentional spaces that enhance human health and well-being. Backed by the latest scientific research, WELL includes strategies that aim to advance health by <strong>setting performance standards</strong> for <strong>design interventions, operational protocols and policies</strong> and a commitment to fostering a <strong>culture of health and well-being</strong>. Built on the pioneering foundation of the first version of the WELL Building Standard (WELL v1), WELL v2 draws expertise from thousands of WELL users, practitioners, medical professionals, public health experts and building scientists around the world.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Jackson LEI
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/leibigzhen" target="_blank" rel="noopener" title="Github" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:<Zhen_Lei@outlook.com>" target="_blank" rel="noopener" title="E-mail" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.design.upenn.edu/tal/people" target="_blank" rel="noopener" title="Working" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zm80 256h64c44.2 0 80 35.8 80 80 0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16 0-44.2 35.8-80 80-80m-32-96a64 64 0 1 1 128 0 64 64 0 1 1-128 0m256-32h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16m0 64h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16m0 64h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://arch.seu.edu.cn/" target="_blank" rel="noopener" title="Education" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="m243.4 2.6-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24h400c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0M128 224H64v196.3c-.6.3-1.2.7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512h448c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1L448 224h-64v192h-40V224h-64v192h-48V224h-64v192h-40zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+    
+  </body>
+</html>
