@@ -1,0 +1,25 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches:
+      - master
+  pull_request: # 在main分支合并别人提的pr时
+    branches:
+      - master
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs
+      - run: pip install mkdocs-material
+      - name: Configure Git
+        run: |
+          git config --global user.name "leibigzhen"
+          git config --global user.email "zhen.lei1231@outlook.com"
+      - run: mkdocs gh-deploy --force

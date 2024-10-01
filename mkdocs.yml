@@ -1,0 +1,76 @@
+# [info]
+site_name: Jackson LEI
+site_url: https://leibigzhen.github.io/
+site_auther: leibigzhen
+
+
+# [UI]
+theme:
+  name: material
+  logo: assets/logo.jpg
+  favicon: assets/logo.jpg
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-3
+        name: Switch to light mode
+  
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top 
+    - search.suggest  
+    - search.highlight 
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include: ["tutorials/python/01_Python Syntax.ipynb",
+                "tutorials/python/02_Data Analysis.ipynb"]
+
+# [Navigtion]
+nav: 
+  - Home: http://127.0.0.1:8000/
+  - About: https://leibigzhen.github.io/
+  - Projects: https://leibigzhen.github.io/
+  - Publications:
+    - Architecture History: Seminar on Architecture.md
+    - Environmental Building: Environmental Building Design.md
+  - Tutorials:
+    - Python: 
+      - 1 Basic Syntax: tutorials/python/01_Python Syntax.ipynb
+      - 2 Data Analysis: tutorials/python/02_Data Analysis.ipynb
+  - More:
+    - Python Notes: Iris & Boston_notes.md
+    
+
+extra:
+  generator: True
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/leibigzhen
+      name: Github
+    - icon: fontawesome/solid/envelope
+      link: mailto:<Zhen_Lei@outlook.com> 
+      name: E-mail
+    - icon: fontawesome/solid/address-card
+      link: https://www.design.upenn.edu/tal/people
+      name: Working
+    - icon: fontawesome/solid/building-columns
+      link: https://arch.seu.edu.cn/
+      name: Education
+   
+copyright: Copyright &copy; 2024 Jackson LEI
+    
+  
