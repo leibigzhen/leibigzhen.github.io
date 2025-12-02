@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: **Ph.D. Candidate** @ <a href='https://arch.seu.edu.cn/jz_en/main.htm' target='_blank'>SEU-ARCH</a>, Nanjing, China, 210096
+subtitle: <strong>Ph.D. Candidate</strong> @ <a href='https://arch.seu.edu.cn/jz_en/main.htm' target='_blank'>SEU-ARCH</a>, Nanjing, China, 210096
 
 profile:
   align: right
