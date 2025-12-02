@@ -32,5 +32,5 @@ I hold dual Master's degrees from the University of Pennsylvania 🏫 and Southe
 
 With a multidisciplinary background bridging environment 🌦️, energy 🔥, and ecology 🌿 in the architectural field, I am dedicated to developing innovative approaches for energy-efficient and climate-adaptive built environments.
 
-• Current Team: `DesignLab (风土建筑), SEU-ARCH`
+• Current Team: `Design Lab (风土建筑), SEU-ARCH`
 <br>• Former Team: `Thermal Architecture Lab, UPenn`
