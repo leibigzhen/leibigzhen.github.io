@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The research on space structure optimization and energy efficiency improvement in low-carbon architectural renovation has been officially published in the Journal of Southeast University 📰.
+Two studies on space structure optimization and energy efficiency improvement in low-carbon architectural renovation have been officially published in 📰 <a href='https://cms-zsfw.journal.founderss.cn/contenthcswx/cdc/b2b/dongnadaxuezike/2025.6/mobile/index.html'>Journal of Southeast University</a>.
