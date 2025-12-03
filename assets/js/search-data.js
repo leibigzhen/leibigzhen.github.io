@@ -440,16 +440,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "news-join-seeep-phd-students-on-an-exciting-exchange-trip-to-sweden-and-the-netherlands-️-on-the-nordic-energy-system-transformation",
           title: 'Join SEEEP PhD students on an exciting exchange trip to Sweden 🚲 and...',
+          description: "",
+          section: "News",},{id: "news-presenting-at-building-simulation-conference-2025-a-brief-experience-of-sunny-brisbane-and-the-gold-coast-of-australia",
+          title: 'Presenting at Building Simulation Conference 2025, a brief experience of sunny Brisbane and...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
