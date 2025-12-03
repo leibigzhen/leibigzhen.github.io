@@ -24,13 +24,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-⚡ Hey there ⚡ Welcome to Jackson (Zhen Lei/雷震) Page!
+Hey there ⚡ Welcome to Jackson (Zhen Lei/雷震) Page!
 
 I am a Ph.D. candidate in Architecture 🧱 at Southeast University, specializing in environmental building design and research. My work focuses on building environmental performance optimization and green low-carbon architectural design.
 
 I hold dual Master's degrees from the University of Pennsylvania 🏫 and Southeast University 🏛️ and a Bachelor’s degree from Chongqing University ⛰️.
 
-With a multidisciplinary background bridging environment 🌦️, energy 🔥, and ecology 🌿 in the architectural field, I am dedicated to developing innovative approaches for energy-efficient and climate-adaptive built environments.
+With a multidisciplinary background bridging ENVIRONMENT 🌦️, ENERGY 🔥, and ECOLOGY 🌿 in the architectural field, I am dedicated to developing innovative approaches for energy-efficient and climate-adaptive built environments.
 
 • Current Team: `Design Lab (风土建筑), SEU-ARCH`
 <br>• Former Team: `Thermal Architecture Lab, UPenn`
