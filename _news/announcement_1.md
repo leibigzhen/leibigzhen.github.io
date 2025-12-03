@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Join SEEEP PhD students on an exciting exchange trip to Sweden 🚲 and the Netherlands 🏙️ on the Nordic energy system transformation.
+Join <a href='https://me.sjtu.edu.cn/en/news/13468.html' target='_blank'>SEEEP PhD Summer School</a> on an exciting exchange trip to Sweden 🚲 and the Netherlands 🏙️ on the Nordic energy system transformation.
