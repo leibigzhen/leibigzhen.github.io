@@ -440,8 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-join-2024-seeep-phd-summer-school-on-an-exciting-exchange-trip-to-sweden-and-the-netherlands-️-on-the-nordic-energy-system-transformation",
-          title: 'Join 2024 SEEEP PhD Summer School on an exciting exchange trip to Sweden...',
+            },},{id: "news-joining-2024-seeep-phd-summer-school-for-an-exciting-nordic-trip-to-sweden-and-the-netherlands-️-to-explore-energy-system-transformation",
+          title: 'Joining 2024 SEEEP PhD Summer School for an exciting Nordic trip to Sweden...',
           description: "",
           section: "News",},{id: "news-presenting-at-building-simulation-conference-2025-and-also-briefly-enjoying-of-sunny-brisbane-moreton-island-and-the-gold-coast",
           title: 'Presenting at Building Simulation Conference 2025, and also briefly enjoying of sunny Brisbane...',
