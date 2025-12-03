@@ -440,8 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-join-seeep-phd-students-on-an-exciting-exchange-trip-to-sweden-and-the-netherlands-️-on-the-nordic-energy-system-transformation",
-          title: 'Join SEEEP PhD students on an exciting exchange trip to Sweden 🚲 and...',
+            },},{id: "news-join-seeep-phd-summer-school-on-an-exciting-exchange-trip-to-sweden-and-the-netherlands-️-on-the-nordic-energy-system-transformation",
+          title: 'Join SEEEP PhD Summer School on an exciting exchange trip to Sweden 🚲...',
           description: "",
           section: "News",},{id: "news-presenting-at-building-simulation-conference-2025-a-brief-experience-of-sunny-brisbane-and-the-gold-coast-of-australia",
           title: 'Presenting at Building Simulation Conference 2025, a brief experience of sunny Brisbane and...',
