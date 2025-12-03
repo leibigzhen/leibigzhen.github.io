@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Energy System Transformation: An exciting Nordic trip 🏙️ to Sweden and the Netherlands.
+Join SEEEP PhD students on an exciting exchange trip to Sweden 🚲 and the Netherlands 🏙️ on the Nordic energy system transformation.
