@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presenting at <a href='https://bs2025.org/'>Building Simulation Conference 2025</a>, and briefly enjoying the sunny Brisbane 🏙️, Moreton Island 🐋 and Gold Coast 🌊.
+Presenting at <a href='https://bs2025.org/'>Building Simulation Conference 2025</a>, and briefly enjoying the sunny Brisbane 🎡, Moreton Island 🐋 and Gold Coast 🌊.
