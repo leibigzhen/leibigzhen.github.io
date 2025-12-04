@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joining <a href='https://me.sjtu.edu.cn/en/news/13468.html' target='_blank'>2024 SEEEP PhD Summer School</a> for an exciting Nordic trip to Sweden 🚲 and the Netherlands 🏙️ to explore energy system transformation.
+Joining <a href='https://me.sjtu.edu.cn/en/news/13468.html' target='_blank'>2024 SEEEP PhD Summer School</a> for an exciting Nordic trip to Sweden 🚵 and the Netherlands 🏙️ to explore energy system transformation.
