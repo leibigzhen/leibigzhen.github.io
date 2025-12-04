@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <strong>Ph.D. Candidate</strong> @ <a href='https://arch.seu.edu.cn/jz_en/main.htm' target='_blank'>SEU-ARCH</a>, Nanjing, CN, 210096
 
